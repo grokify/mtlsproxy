@@ -35,7 +35,7 @@ Ref: https://stackoverflow.com/a/10176685/1908967
 ## Make mTLS Request using cURL
 
 ```
-curl --cert client_cert.pem --key client_key.pem --cacert server_crt.pem  https://localhost:8080
+% curl --cert client_cert.pem --key client_key.pem --cacert server_crt.pem  https://localhost:8080
 ```
 
 Returns page from http://example.com.
