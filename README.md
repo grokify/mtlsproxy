@@ -1,6 +1,6 @@
 # mTLS Proxy
 
-This is a simple mTLS reverse proxy that handles mTLS with the client.
+This is a simple Mutual TLS (mTLS) reverse proxy that handles mTLS with the client.
 
 ## Clone the Server
 
