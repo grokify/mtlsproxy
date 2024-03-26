@@ -2,6 +2,13 @@
 
 This is a simple mTLS reverse proxy that handles mTLS with the client.
 
+## Clone the Server
+
+```
+% git clone https://github.com/grokify/mtlsproxy
+% cd mtlsproxy
+```
+
 ## Generate Key and Certificate
 
 Create test keys and certificates for server and client usage in non-interactive mode with 1 day expiration.
@@ -27,7 +34,9 @@ Ref: https://stackoverflow.com/a/10176685/1908967
 
 ## Make mTLS Request using cURL
 
-`curl --cert client_cert.pem --key client_key.pem --cacert server_crt.pem  https://localhost:8080`
+```
+curl --cert client_cert.pem --key client_key.pem --cacert server_crt.pem  https://localhost:8080
+```
 
 Returns page from http://example.com.
 
