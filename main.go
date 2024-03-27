@@ -74,10 +74,11 @@ func main() {
 				log.Printf("%s client common name: %+v", tag, tlsConn.ConnectionState().PeerCertificates[0].Subject.CommonName)
 			}
 
-			err = netutil.ModifyConnectionRequest(conn, func(req *http.Request) {
+			err = netutil.ModifyConnectionRequest(conn, func(req *http.Request) error {
 				req.Host = origin.Host
 				req.URL.Host = origin.Host
 				req.URL.Scheme = "http"
+				return nil
 			})
 			if err != nil {
 				log.Printf("failed to complete request: %s", err)
