@@ -21,7 +21,7 @@ const (
 )
 
 func main() {
-	tlsConfig, err := tlsutil.NewTLSConfig(
+	tlsConfig, err := tlsutil.NewTLSConfigCerts(
 		os.Getenv(EnvServerCertPath),
 		os.Getenv(EnvServerKeyPath),
 		[]string{},
