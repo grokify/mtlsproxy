@@ -1,2 +1,4 @@
-github.com/grokify/mogo v0.64.11 h1:aFH060aO6yjDdLzCY7Y4bQcC1iyNFvd8rBR9zq9M0zA=
-github.com/grokify/mogo v0.64.11/go.mod h1:FrKyuDTl7uz0BrMCT40KGtsJQs2KGYjo3cib7toouEA=
+github.com/grokify/mogo v0.66.2 h1:4GBxS+CKhP8H2jiXQnZrp2by+tWh40cPfAcUBbuLecU=
+github.com/grokify/mogo v0.66.2/go.mod h1:S7yY+CvDcWXgJJtvaovzzA/mq9dAojldkAseERK+nmo=
+golang.org/x/net v0.32.0 h1:ZqPmj8Kzc+Y6e0+skZsuACbx+wzMgo5MQsJh9Qd6aYI=
+golang.org/x/net v0.32.0/go.mod h1:CwU0IoeOlnQQWJ6ioyFrfRuomB8GKF6KbYXZVyeXNfs=
