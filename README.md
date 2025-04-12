@@ -6,9 +6,9 @@
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
- [build-status-svg]: https://github.com/grokify/mtlsproxy/workflows/test/badge.svg
- [build-status-url]: https://github.com/grokify/mtlsproxy/actions/workflows/test.yaml
- [lint-status-svg]: https://github.com/grokify/mtlsproxy/workflows/lint/badge.svg
+ [build-status-svg]: https://github.com/grokify/mtlsproxy/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/grokify/mtlsproxy/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/grokify/mtlsproxy/actions/workflows/lint.yaml/badge.svg?branch=main
  [lint-status-url]: https://github.com/grokify/mtlsproxy/actions/workflows/lint.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/mtlsproxy
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/mtlsproxy
