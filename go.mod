@@ -1,7 +1,12 @@
 module github.com/grokify/mtlsproxy
 
-go 1.23.2
+go 1.24.0
 
-require github.com/grokify/mogo v0.70.6
+require github.com/grokify/mogo v0.71.9
 
-require golang.org/x/net v0.41.0 // indirect
+require (
+	github.com/huandu/xstrings v1.5.0 // indirect
+	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+)
